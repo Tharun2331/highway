@@ -1,0 +1,57 @@
+{
+  "name": "crwn-clothing",
+  "version": "0.1.0",
+  "engines": {
+    "node": "12.x"
+  },
+  "private": true,
+  "dependencies": {
+    "firebase": "6.0.2",
+    "node-sass": "4.12.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-redux": "7.0.3",
+    "react-router-dom": "5.0.0",
+    "react-stripe-checkout": "2.6.3",
+    "redux": "4.0.1",
+    "redux-logger": "3.0.6",
+    "redux-persist": "5.10.0",
+    "reselect": "4.0.0"
+  },
+  "scripts": {
+    "dev": "react-scripts start",
+    "start": "serve -s build",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "We are going to replace our local state management from redux to the new context API. This repository is our application before we introduced sagas to handle our asynchronous code, which is a good starting point to make the appropriate changes!",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tharun2331/react-final.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tharun2331/react-final/issues"
+  },
+  "homepage": "https://github.com/Tharun2331/react-final#readme"
+}
